@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+
 * {
 	margin: 0;
 	font-family: "Alegreya",sans-serif;
@@ -6,7 +8,7 @@ header {
 
 	height: 100px;
 	width: 100%;
-	background-color: #42e5f4; 
+	background-color: #b3e6ff; 
 } 
 
 nav {
@@ -29,4 +31,123 @@ a:link {
 
 a:hover {
 	color:  #00a3cc;
+}
+
+#logo{
+	margin: 20px;
+	float: left;
+	width: 200px;
+	height: 60px;
+	background: url(img/RD.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+	
+body {
+	background: url(img/rocket_design.png);
+	background-repeat: no-repeat;
+	background-position : 55% 100px;
+	background-color: #b3e6ff;
+}
+/*---end of header---*/
+#html{
+	top: 87%;
+	position: absolute;
+	background-color: #ff8566;
+	width: 25%;
+	text-align: center;
+	font-size: 110%;
+	padding-bottom: 20px;
+}
+
+#css{
+	top: 87%;
+	left: 25%;
+	background-color: #b3d9ff;
+	position: absolute;
+	width: 25%;
+
+text-align: center;
+	font-size: 110%;
+	padding-bottom: 20px;
+}
+
+#seo{
+	top: 87%;
+	left: 50%;
+	background-color: #99ff99;
+	position: absolute;
+	width: 25%;
+	text-align: center;
+	font-size: 110%;
+	padding-bottom: 20px;
+border-left: solid 1px;}
+
+
+#social{
+	top: 87%;
+	left: 75%;
+	background-color:#e6ffe6; 
+	position: absolute;
+	width: 25%;
+	text-align: center;
+	font-size: 110%;
+	padding-bottom: 20px;
+}
+
+#html>i {
+	font-size: 500%;
+	padding: 10px;
+}
+
+#css>i{
+	font-size: 500%;
+	padding: 10px;
+}
+
+#seo>i{
+	font-size: 500%;
+	padding: 10px;
+}
+
+#social>i {
+	font-size: 500%;
+	padding: 10px;
+}
+
+#pad {
+	top: 100%;
+	position: absolute;
+}
+
+#mobile{
+	top:180%;
+	position: absolute;
+}
+
+#desk {
+	top: 260%;
+	position: absolute;
+	left: -10px;
+}
+#pad-text{
+	top: 20%;
+	left: 150%;
+	position: absolute;
+	font-size: 150%;}
+article {
+	float: left;
+	margin-bottom: 0;
+	width: 50%;
+	height: auto;
+	font-size: 150%;
+}
+
+#desktext{
+	font-size: 150%;
+}
+
+#deskimg {
+	left: -20px;
+	position: absolute;
 }
