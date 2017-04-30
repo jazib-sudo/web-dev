@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	font-family: "Alegreya",sans-serif;
+}
+header {
+
+	height: 100px;
+	width: 100%;
+	background-color: #42e5f4; 
+} 
+
+nav {
+	float: right;
+}
+nav>ul li {
+	list-style-type: none;
+	display: inline-grid;
+	padding-top: 30px;
+	padding-right: 50px;
+	font-size: 20px;
+	
+
+}
+
+a:link {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color:  #00a3cc;
+}
