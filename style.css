@@ -58,6 +58,7 @@ body {
 	text-align: center;
 	font-size: 110%;
 	padding-bottom: 20px;
+	color: white;
 }
 
 #css{
@@ -65,7 +66,7 @@ body {
 	left: 25%;
 	background-color: #b3d9ff;
 	position: absolute;
-	width: 25%;
+	width: 25%;color: white;
 
 text-align: center;
 	font-size: 110%;
@@ -74,7 +75,7 @@ text-align: center;
 
 #seo{
 	top: 87%;
-	left: 50%;
+	left: 50%;color: white;
 	background-color: #99ff99;
 	position: absolute;
 	width: 25%;
@@ -85,7 +86,7 @@ border-left: solid 1px;}
 
 
 #social{
-	top: 87%;
+	top: 87%;color: white;
 	left: 75%;
 	background-color:#e6ffe6; 
 	position: absolute;
