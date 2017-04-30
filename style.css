@@ -51,7 +51,7 @@ body {
 }
 /*---end of header---*/
 #html{
-	top: 87%;
+	top: 90%;
 	position: absolute;
 	background-color: #ff8566;
 	width: 25%;
@@ -117,6 +117,7 @@ border-left: solid 1px;}
 }
 
 #pad {
+	padding-top: 120px;
 	top: 100%;
 	position: absolute;
 }
@@ -124,31 +125,42 @@ border-left: solid 1px;}
 #mobile{
 	top:180%;
 	position: absolute;
+	padding-bottom:  10px;
 }
 
 #desk {
-	top: 260%;
+	top: 240%;
 	position: absolute;
-	left: -10px;
-}
-#pad-text{
-	top: 20%;
-	left: 150%;
-	position: absolute;
-	font-size: 150%;}
+	left: -100px;}
+
 article {
 	float: left;
 	margin-bottom: 0;
 	width: 50%;
 	height: auto;
 	font-size: 150%;
+
 }
 
-#desktext{
+aside{
 	font-size: 150%;
 }
 
+hr {
+	color: black;
+}
+
+#padimg  {
+	background-color: #80aaff;
+}
+
+#mob
+{
+	background-color: #80aaff;
+}
 #deskimg {
-	left: -20px;
-	position: absolute;
+	background-color: #80aaff;
+}
+#mob1 {
+	background-color: #b3e6ff; 
 }
