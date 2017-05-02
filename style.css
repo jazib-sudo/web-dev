@@ -2,7 +2,7 @@
 
 * { 
 	margin: 0 ;
-	font-family: 'Alegreya',sans-serif;
+
 	color:white;
 }
 header {
@@ -186,7 +186,7 @@ border-left: solid 1px;}
 
 
 h2,h1 {
-	padding:4px;
+	padding:10px;
 	text-align: center;
 }
 
@@ -203,14 +203,16 @@ h2,h1 {
 
 #google {
 	background-color:#ffbb99 ;
+	border:2px solid #a6a6a6;
 
 }
 
 #market {
-	background-color:#cce6ff ;
+	background-color:#cce6ff ; border:2px solid #a6a6a6; 
 }
 
 #cust {
+	border:2px solid #a6a6a6;
 	background-color:  #99ff99 ;
 
 }
@@ -230,19 +232,26 @@ p { margin: 10px;
 
 }
 
-#fb {
-	padding: 0 23% 0 2%;
+#fb {padding: 5% 15% 5% 10%;
+	color: #c3d7df;
+	
 
 }
 
-#g {
-	padding: 0 25% 0 0;
+#g {padding: 5% 15% 5% 4%;
+	color: #c3d7df;
+	
 
 }
 
 #tw{
+	padding: 5% 15% 5% 4%;
+	color: #c3d7df;
 	
-	padding: 0 25% 0 0;
+}
+#yt {
+	padding: 5% 15% 5% 4%;
+	color: #c3d7df;
 }
 
 footer p {
@@ -254,5 +263,10 @@ footer p {
 
 footer {
 	background-color:#666699;
+
+}
+
+i:hover {
+	color: #a6a6a6;
 
 }
