@@ -5,6 +5,8 @@
 
 	color:white;
 }
+
+
 header {
 
 	height: 100px;
@@ -49,7 +51,6 @@ body {max-width: 100%;
 	background-size: 100%;
 	background-position: center;
 	background-color: #b3e6ff;
-}
 
 .banner {
 	width: 100%;
@@ -62,6 +63,7 @@ body {max-width: 100%;
 	font-size: 110%;
 	padding-bottom: 20px;
 	color: white;
+	 
 }
 
 #css{
