@@ -1,8 +1,9 @@
 @import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
 
-* {
-	margin: 0;
-	font-family: "Alegreya",sans-serif;
+* { 
+	margin: 0 ;
+	font-family: 'Alegreya',sans-serif;
+	color:white;
 }
 header {
 
@@ -43,16 +44,18 @@ a:hover {
 	background-position: center;
 }
 	
-body {
-	background: url(img/rocket_design.png);
-	background-repeat: no-repeat;
-	background-position : 55% 100px;
+body {max-width: 100%;
+	font-family: 'Alegreya',sans-serif;
+	background-size: 100%;
+	background-position: center;
 	background-color: #b3e6ff;
+}
+
+.banner {
+	width: 100%;
 }
 /*---end of header---*/
 #html{
-	top: 90%;
-	position: absolute;
 	background-color: #ff8566;
 	width: 25%;
 	text-align: center;
@@ -62,22 +65,19 @@ body {
 }
 
 #css{
-	top: 90%;
-	left: 25%;
+	
 	background-color: #b3d9ff;
-	position: absolute;
-	width: 25%;color: white;
-
-text-align: center;
+	width: 25%;
+	color: white;
+	text-align: center;
 	font-size: 110%;
 	padding-bottom: 20px;
 }
 
 #seo{
-	top: 90%;
-	left: 50%;color: white;
+	
+	color: white;
 	background-color: #99ff99;
-	position: absolute;
 	width: 25%;
 	text-align: center;
 	font-size: 110%;
@@ -86,10 +86,8 @@ border-left: solid 1px;}
 
 
 #social{
-	top: 90%;color: white;
-	left: 75%;
+	color: white;
 	background-color:#e6ffe6; 
-	position: absolute;
 	width: 25%;
 	text-align: center;
 	font-size: 110%;
@@ -116,72 +114,145 @@ border-left: solid 1px;}
 	padding: 10px;
 }
 
+#onef {
+	display: inline-flex;
+	width: 100%;
+}
+/*---finished one fourth---*/
 #pad {
-	padding-top: 120px;
-	width: 100%;
-	top: 100%;
-	position: absolute;
-}
-
-#mobile{
-	top:180%;
-	position: absolute;
-	padding-bottom:  10px;
-	width: 100%;
-
-}
-
-#desk {
-	top: 240%;
-	position: absolute;
-	left: -100px;
-width: 100%;}
-
-article {
 	float: left;
-	margin-bottom: 0;
+	width: 100%;
+}
+#padimg  {
+	padding-top: 20px;
 	width: 50%;
 	height: auto;
-	font-size: 150%;
-
-}
-
-aside{
-	font-size: 150%;
-}
-
-hr {
-	color: black;
-}
-
-#padimg  {
-	background-color: #80aaff;
-	width: 50%
 	float:left;
 }
 
-#mob
-{
-	background-color: #80aaff;
-	float: right;
-}
-#deskimg {
+#pad-text {
 	background-color: #80aaff;
 	width: 50%;
+	font-size: 110%;
+	float:right;
+	height: auto;
+}
+
+#mobile {
 	float: left;
+	width: 100%;
+}
+#mobtext {
+	background-color: #80aaff;
+	width: 50%;
+	float: left; 
+	font-size: 110%;
+}
+#mob
+{
+	padding-top: 16px;
+	width: 50%;height: auto;
+	float: right;
+}
+
+
+#desk {
+	float: left;
+	width: 100%;
+	border-bottom: 25px ;
+
+}
+
+#deskimg {
+	
+	width: 50%;height: auto;
+	float: left;
+	margin-bottom: 0 auto;
 }
 
 #desktext {
 	float: right;
 	width: 50%;
-}
-#mob1 {
-	background-color: #b3e6ff;
+	font-size: 105%;
+	background-color: #80aaff;
+	}
+
+
+#hand {
+	padding-top: 50px;
 	width: 50%;
-	float: left; 
+
 }
 
-#pad-text {
-	width: 50%
-	float:right;
+
+h2,h1 {
+	padding:4px;
+	text-align: center;
+}
+
+#desktop {
+	width: 50%;
+	padding-top: 50px;
+}
+
+#one3 {
+	display: inline-flex;
+	width: 100%;
+	font-family: 'Alegreya',sans-serif;
+}
+
+#google {
+	background-color:#ffbb99 ;
+
+}
+
+#market {
+	background-color:#cce6ff ;
+}
+
+#cust {
+	background-color:  #99ff99 ;
+
+}
+
+p { margin: 10px;
+	font-family: 'Alegreya',sans-serif;
+	line-height: 150%;
+}
+
+/*---*/
+
+#net {
+	font-size: 500%;
+	display: inline-flex;
+	background-color:#666699;
+	width: 100%;
+
+}
+
+#fb {
+	padding: 0 23% 0 2%;
+
+}
+
+#g {
+	padding: 0 25% 0 0;
+
+}
+
+#tw{
+	
+	padding: 0 25% 0 0;
+}
+
+footer p {
+	text-align: center;
+	font-size: 150%;
+	padding: 10px;
+	margin-bottom: 0;
+}
+
+footer {
+	background-color:#666699;
+
 }
