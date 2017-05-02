@@ -62,7 +62,7 @@ body {
 }
 
 #css{
-	top: 87%;
+	top: 90%;
 	left: 25%;
 	background-color: #b3d9ff;
 	position: absolute;
@@ -74,7 +74,7 @@ text-align: center;
 }
 
 #seo{
-	top: 87%;
+	top: 90%;
 	left: 50%;color: white;
 	background-color: #99ff99;
 	position: absolute;
@@ -86,7 +86,7 @@ border-left: solid 1px;}
 
 
 #social{
-	top: 87%;color: white;
+	top: 90%;color: white;
 	left: 75%;
 	background-color:#e6ffe6; 
 	position: absolute;
@@ -118,6 +118,7 @@ border-left: solid 1px;}
 
 #pad {
 	padding-top: 120px;
+	width: 100%;
 	top: 100%;
 	position: absolute;
 }
@@ -126,12 +127,15 @@ border-left: solid 1px;}
 	top:180%;
 	position: absolute;
 	padding-bottom:  10px;
+	width: 100%;
+
 }
 
 #desk {
 	top: 240%;
 	position: absolute;
-	left: -100px;}
+	left: -100px;
+width: 100%;}
 
 article {
 	float: left;
@@ -152,15 +156,32 @@ hr {
 
 #padimg  {
 	background-color: #80aaff;
+	width: 50%
+	float:left;
 }
 
 #mob
 {
 	background-color: #80aaff;
+	float: right;
 }
 #deskimg {
 	background-color: #80aaff;
+	width: 50%;
+	float: left;
+}
+
+#desktext {
+	float: right;
+	width: 50%;
 }
 #mob1 {
-	background-color: #b3e6ff; 
+	background-color: #b3e6ff;
+	width: 50%;
+	float: left; 
+}
+
+#pad-text {
+	width: 50%
+	float:right;
 }
